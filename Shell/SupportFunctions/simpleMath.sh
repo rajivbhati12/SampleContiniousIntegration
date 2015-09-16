@@ -23,6 +23,9 @@ mod(){
 	local mod=$(($1%$2))
 	echo $mod
 }
+power(){	
+	echo "$1^$2" | bc
+}
 #case $1 in
 #("add") 
 #	a=$(add $2 $3)
