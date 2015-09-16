@@ -19,6 +19,10 @@ divide(){
 	local divide=$(($1/$2))
 	echo $divide
 }
+mod(){
+	local mod=$(($1%$2))
+	echo $mod
+}
 #case $1 in
 #("add") 
 #	a=$(add $2 $3)
