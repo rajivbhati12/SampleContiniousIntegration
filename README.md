@@ -1,1 +1,1 @@
-# SampleContiniousIntegration
+Please refer Wiki:)
